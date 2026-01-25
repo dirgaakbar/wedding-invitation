@@ -3,12 +3,12 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 // Placeholder: ganti dengan URL foto asli
 const DEFAULT_PHOTOS = [
-  'https://images.unsplash.com/photo-1519741497674-611481863552?w=400&h=500&fit=crop',
-  'https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=400&h=500&fit=crop',
-  'https://images.unsplash.com/photo-1529634801352-7a093c43e4c6?w=400&h=500&fit=crop',
-  'https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=400&h=500&fit=crop',
-  'https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=400&h=500&fit=crop',
-  'https://images.unsplash.com/photo-1525268323446-0505b7f9dce8?w=400&h=500&fit=crop',
+  '/wedding-invitation/image/Galeri-1.jpeg',
+  '/wedding-invitation/image/Galeri-2.jpeg',
+  '/wedding-invitation/image/Galeri-3.jpg',
+  '/wedding-invitation/image/Galeri-4.jpg',
+  '/wedding-invitation/image/Galeri-5.jpg',
+  '/wedding-invitation/image/Galeri-6.jpg',
 ];
 
 export default function Gallery({ photos = DEFAULT_PHOTOS }) {
