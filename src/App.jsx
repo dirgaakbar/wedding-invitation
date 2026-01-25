@@ -39,7 +39,13 @@ export default function App() {
       <main>
         <Hero groomName={CONFIG.groom.name} brideName={CONFIG.bride.name} />
         <Countdown targetDate={CONFIG.weddingDate} />
-        <Profile groom={CONFIG.groom} bride={CONFIG.bride} />
+       <Profile
+  groom={CONFIG.groom}
+  bride={CONFIG.bride}
+  groomPhoto={CONFIG.groomPhoto}
+  bridePhoto={CONFIG.bridePhoto}
+/>
+
         <Gallery />
         <Location
           venue={CONFIG.venue}
