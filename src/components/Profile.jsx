@@ -24,8 +24,8 @@ const Card = ({ name, role, bio, imagePlaceholder, order }) => (
 export default function Profile({
   groom = { name: 'Ahmad', role: 'Mempelai Pria', bio: 'Putra dari Bapak ... & Ibu ...' },
   bride = { name: 'Siti', role: 'Mempelai Wanita', bio: 'Putri dari Bapak ... & Ibu ...' },
-  groomPhoto: '/wedding-invitation/foto-pria.jpeg',
-  bridePhoto: '/wedding-invitation/foto-wanita.jpeg',
+  groomPhoto,
+  bridePhoto,
 }) {
   return (
     <section id="profile" className="relative py-16 md:py-24 px-4 z-10">
