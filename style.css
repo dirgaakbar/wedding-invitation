@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #444;
+}
+
+.judul {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background: url('../assets/bg.jpg') center/cover;
+  position: relative;
+}
+
+.overlay {
+  background: rgba(0,0,0,.4);
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin-top: 30px;
+  padding: 12px 40px;
+  border-radius: 30px;
+  border: none;
+  background: #c9a14a;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* PENGANTIN */
+section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.pasangan {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.card img {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+/* LOKASI */
+iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 300px;
+  border: none;
+}
+
+/* ANIMASI */
+.fade {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 1s;
+}
+
+.fade.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* SLIDER */
+.slider {
+  position: relative;
+  height: 60px;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  transition: .8s;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .judul {
+    font-size: 26px;
+  }
+}
