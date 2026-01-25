@@ -1,5 +1,5 @@
 /* =============================
-   BUKA UNDANGAN + MUSIK
+   MUSIK & BUKA UNDANGAN
 ============================= */
 const musik = document.getElementById("musik");
 let play = true;
@@ -39,7 +39,7 @@ setInterval(() => {
 }, 1000);
 
 /* =============================
-   ANIMASI SCROLL (FADE)
+   ANIMASI SCROLL
 ============================= */
 window.addEventListener("scroll", () => {
   document.querySelectorAll(".fade").forEach(el => {
@@ -72,14 +72,13 @@ if (nama) {
 }
 
 /* =============================
-   ANIMASI BUNGA JATUH
+   BUNGA JATUH
 ============================= */
-const bunga = document.querySelector(".flowers");
+const flowers = document.querySelector(".flowers");
 
 for (let i = 0; i < 15; i++) {
   const span = document.createElement("span");
   span.style.left = Math.random() * 100 + "%";
-  span.style.animationDuration =
-    (5 + Math.random() * 5) + "s";
-  bunga.appendChild(span);
+  span.style.animationDuration = (5 + Math.random() * 5) + "s";
+  flowers.appendChild(span);
 }
