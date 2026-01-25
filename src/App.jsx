@@ -8,14 +8,14 @@ import FloatingMusicPlayer from './components/FloatingMusicPlayer';
 
 // ——— Sesuaikan data di bawah ini ———
 const CONFIG = {
-  groom: { name: 'Ahmad', role: 'Mempelai Pria', bio: 'Putra dari Bapak ... & Ibu ...' },
-  bride: { name: 'Siti', role: 'Mempelai Wanita', bio: 'Putri dari Bapak ... & Ibu ...' },
-  weddingDate: '2025-12-31T09:00:00',
-  venue: 'Gedung Serba Guna',
-  address: 'Jl. Contoh No. 123, Kota Anda',
-  mapsUrl: 'https://maps.google.com',
+  groom: { name: 'Pria', role: 'Mempelai Pria', bio: 'Putra dari Bapak ... & Ibu ...' },
+  bride: { name: 'Wanita', role: 'Mempelai Wanita', bio: 'Putri dari Bapak ... & Ibu ...' },
+  weddingDate: '2026-03-08T09:00:00',
+  venue: 'Gedung UNCEN',
+  address: 'Pos 7 Bawah No. 123, Jayapura',
+  mapsUrl: 'https://share.google/APoLcbOwLGBH5r841',
   akadTime: '08.00 - 09.00 WIB',
-  resepsiTime: '10.00 - 14.00 WIB',
+  resepsiTime: '10.00 - Selesai WIT',
 };
 
 export default function App() {
