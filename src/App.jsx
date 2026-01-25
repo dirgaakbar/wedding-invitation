@@ -8,8 +8,8 @@ import FloatingMusicPlayer from './components/FloatingMusicPlayer';
 
 // ——— Sesuaikan data di bawah ini ———
 const CONFIG = {
-  groom: { name: 'Pria', role: 'Mempelai Pria', bio: 'Putra dari Bapak ... & Ibu ...' },
-  bride: { name: 'Wanita', role: 'Mempelai Wanita', bio: 'Putri dari Bapak ... & Ibu ...' },
+  groom: { name: 'Ahmad', role: 'Mempelai Pria', bio: 'Putra dari Bapak ... & Ibu ...' },
+  bride: { name: 'Siti', role: 'Mempelai Wanita', bio: 'Putri dari Bapak ... & Ibu ...' },
   weddingDate: '2025-12-31T09:00:00',
   venue: 'Gedung Serba Guna',
   address: 'Jl. Contoh No. 123, Kota Anda',
@@ -18,7 +18,7 @@ const CONFIG = {
   resepsiTime: '10.00 - 14.00 WIB',
   // Musik: taruh file MP3 di folder public/ dengan nama music.mp3, atau isi URL di sini
   // Contoh: musicUrl: 'https://.../lagu.mp3'   atau  musicUrl: '/music.mp3'
-  musicUrl: public/music.mp3, // pakai public/music.mp3 jika undefined
+  musicUrl: undefined, // pakai public/music.mp3 jika undefined
 };
 
 export default function App() {
