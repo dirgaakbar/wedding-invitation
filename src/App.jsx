@@ -8,15 +8,15 @@ import FloatingMusicPlayer from './components/FloatingMusicPlayer';
 
 // ——— Sesuaikan data di bawah ini ———
 const CONFIG = {
-  groomPhoto: 'wanita.jpg',
-  bridePhoto: 'image/wanita.jpg',
-  galleryPhotos: [
-    'image/Galeri-1.jpeg',
-    'image/Galeri-2.jpeg',
-    'image/Galeri-3.jpg',
-    'image/Galeri-4.jpg',
-    'image/Galeri-5.jpg',
-    'image/Galeri-6.jpg',
+groomPhoto: '/wedding-invitation/image/wanita.jpg',
+bridePhoto: '/wedding-invitation/image/wanita.jpg',
+galleryPhotos: [
+    '/wedding-invitation/image/Galeri-1.jpeg',
+    '/wedding-invitation/image/Galeri-2.jpeg',
+    '/wedding-invitation/image/Galeri-3.jpg',
+    '/wedding-invitation/image/Galeri-4.jpg',
+    '/wedding-invitation/image/Galeri-5.jpg',
+    '/wedding-invitation/image/Galeri-6.jpg',
   ],
   groom: { name: 'Pria', role: 'Mempelai Pria', bio: 'Putra dari Bapak ... & Ibu ...' },
   bride: { name: 'Wanita', role: 'Mempelai Wanita', bio: 'Putri dari Bapak ... & Ibu ...' },
