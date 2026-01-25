@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Undangan Pernikahan</title>
+
+  <!-- GOOGLE FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- AUDIO -->
+<audio id="musik" loop>
+  <source src="assets/musik.mp3" type="audio/mpeg">
+</audio>
+
+<!-- COVER -->
+<section class="hero">
+  <div class="overlay">
+    <p class="kepada">Kepada Yth.</p>
+    <h2 id="namaTamu">Bapak / Ibu / Saudara/i</h2>
+
+    <div id="countdown"></div>
+
+    <button onclick="bukaUndangan()">Lihat Undangan</button>
+  </div>
+</section>
+
+<!-- PENGANTIN -->
+<section id="undangan" class="pengantin">
+  <h2 class="judul">Mempelai</h2>
+
+  <div class="pasangan">
+    <div class="card fade">
+      <img src="assets/pria.jpg">
+      <h3>Ahmad</h3>
+      <p>Putra Bpk A & Ibu B</p>
+    </div>
+
+    <div class="card fade">
+      <img src="assets/wanita.jpg">
+      <h3>Siti</h3>
+      <p>Putri Bpk C & Ibu D</p>
+    </div>
+  </div>
+</section>
+
+<!-- ACARA -->
+<section class="acara fade">
+  <h2 class="judul">Akad Nikah</h2>
+  <p>Minggu, 12 Oktober 2026</p>
+  <p>08.00 WIB</p>
+</section>
+
+<!-- LOKASI -->
+<section class="lokasi fade">
+  <h2 class="judul">Lokasi</h2>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18..."
+    loading="lazy"></iframe>
+</section>
+
+<!-- CERITA -->
+<section class="cerita">
+  <h2 class="judul">Cerita Kami</h2>
+
+  <div class="slider">
+    <div class="slide active">💑 Pertama Bertemu</div>
+    <div class="slide">❤️ Menjalin Hubungan</div>
+    <div class="slide">💍 Menikah</div>
+  </div>
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
