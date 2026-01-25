@@ -18,7 +18,7 @@ const CONFIG = {
   resepsiTime: '10.00 - 14.00 WIB',
   // Musik: taruh file MP3 di folder public/ dengan nama music.mp3, atau isi URL di sini
   // Contoh: musicUrl: 'https://.../lagu.mp3'   atau  musicUrl: '/music.mp3'
-  musicUrl: undefined, // pakai public/music.mp3 jika undefined
+  musicUrl: '/wedding-invitation/music.mp3', // pakai public/music.mp3 jika undefined
 };
 
 export default function App() {
