@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
 // Default: file music.mp3 di folder public/ (path otomatis benar untuk GitHub Pages)
-// Bisa diganti lewat prop musicUrl, mis. URL eksternal atau '/music.mp3'
+// Bisa diganti lewat prop musicUrl, mis. URL eksternal atau '/music.mp3'.
 export default function FloatingMusicPlayer({ musicUrl }) {
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef(null);
