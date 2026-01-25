@@ -5,11 +5,10 @@ import Profile from './components/Profile';
 import Gallery from './components/Gallery';
 import Location from './components/Location';
 import FloatingMusicPlayer from './components/FloatingMusicPlayer';
-
 // ——— Sesuaikan data di bawah ini ———
 const CONFIG = {
-groomPhoto: '/wedding-invitation/image/wanita.jpg',
-bridePhoto: '/wedding-invitation/image/wanita.jpg',
+groomPhoto: '/wedding-invitation/foto-pria.jpeg',
+bridePhoto: '/wedding-invitation/foto-wanita.jpeg',
 galleryPhotos: [
     '/wedding-invitation/image/Galeri-1.jpeg',
     '/wedding-invitation/image/Galeri-2.jpeg',
