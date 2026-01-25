@@ -8,6 +8,12 @@ body {
   color: #444;
 }
 
+/* SECTION */
+.section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
 .judul {
   font-family: 'Playfair Display', serif;
   font-size: 32px;
@@ -18,11 +24,10 @@ body {
 .hero {
   height: 100vh;
   background: url('../assets/bg.jpg') center/cover;
-  position: relative;
 }
 
 .overlay {
-  background: rgba(0,0,0,.4);
+  background: rgba(0,0,0,.5);
   height: 100%;
   color: white;
   display: flex;
@@ -31,23 +36,24 @@ body {
   align-items: center;
 }
 
-button {
-  margin-top: 30px;
-  padding: 12px 40px;
-  border-radius: 30px;
-  border: none;
-  background: #c9a14a;
-  color: white;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-/* PENGANTIN */
-section {
-  padding: 80px 20px;
+.teks {
+  max-width: 500px;
   text-align: center;
 }
 
+/* BUTTON */
+button, .btn {
+  margin-top: 20px;
+  padding: 12px 35px;
+  border-radius: 30px;
+  background: #d4af37;
+  color: white;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* MEMPELAI */
 .pasangan {
   display: flex;
   justify-content: center;
@@ -56,12 +62,12 @@ section {
 }
 
 .card img {
-  width: 200px;
+  width: 220px;
   border-radius: 50%;
-  margin-bottom: 15px;
+  border: 5px solid #d4af37;
 }
 
-/* LOKASI */
+/* MAP */
 iframe {
   width: 100%;
   max-width: 600px;
@@ -69,22 +75,11 @@ iframe {
   border: none;
 }
 
-/* ANIMASI */
-.fade {
-  opacity: 0;
-  transform: translateY(40px);
-  transition: 1s;
-}
-
-.fade.show {
-  opacity: 1;
-  transform: translateY(0);
-}
-
 /* SLIDER */
 .slider {
   position: relative;
-  height: 60px;
+  height: 70px;
+  font-size: 18px;
 }
 
 .slide {
@@ -98,8 +93,56 @@ iframe {
   opacity: 1;
 }
 
+/* ANIMASI SCROLL */
+.fade {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 1s;
+}
+
+.fade.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* MUSIC BUTTON */
+.music-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #d4af37;
+  color: white;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+}
+
+/* BUNGA */
+.flowers span {
+  position: fixed;
+  top: -40px;
+  width: 20px;
+  height: 20px;
+  background: url('../assets/flower.png') center/cover;
+  animation: jatuh linear infinite;
+}
+
+@keyframes jatuh {
+  to {
+    transform: translateY(110vh) rotate(360deg);
+  }
+}
+
+/* FOOTER */
+footer {
+  padding: 40px 20px;
+  background: #f7f3ed;
+  text-align: center;
+}
+
 /* RESPONSIVE */
-@media (max-width: 768px) {
+@media(max-width:768px) {
   .judul {
     font-size: 26px;
   }
